@@ -75,7 +75,6 @@ def team_colors(name_of_team)
       values.each do |data_k, data_v|
         if data_v == name_of_team
          hash << game_hash[keys][:colors]
-         binding.pry 
        end
       end
     end
